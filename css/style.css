@@ -1,0 +1,40 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-card{
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px #888888;
+}
+.section{
+    text-align: center;
+}
+.section > img{
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+.post{
+    margin: 0 auto;
+    width: 80%;
+    padding: 2em;
+}
+.post > div{
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    padding-bottom: 2em;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #FF27FD;
+    text-align: center;
+    color: #FFFFFF;
+}
