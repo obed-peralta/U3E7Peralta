@@ -30,8 +30,26 @@
                         <option selected>Elija una opción</option>
                         <option value="Femenino">Femenino</option>
                         <option value="Masculino">Masculino</option>
-                    </select>
-
+                    </select><br>
+                    <label for="">Foto de Perfil:</label>
+                    <input type="file" name="archivo">
+                    <fieldset>
+                        <legend>¿Cuál es tu comida favorita?</legend>
+                        <ul>
+                          <li>
+                            <label for="soup">Sopa</label>
+                            <input type="radio" id="soup" name="meal" value="soup" checked>
+                          </li>
+                          <li>
+                            <label for="curry">Curry</label>
+                            <input type="radio" id="curry" name="meal" value="curry">
+                          </li>
+                          <li>
+                            <label for="pizza">Pizza</label>
+                            <input type="radio" id="pizza" name="meal" value="pizza">
+                          </li>
+                        </ul>
+                      </fieldset>
                     <br><br><br>
                     <input type="submit" value="Enviar Información">
                </form>
