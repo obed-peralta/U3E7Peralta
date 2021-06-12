@@ -16,20 +16,25 @@
             <div class="days">Ya páseme 🥺👀</div>
             <div class="title"><h2>Información Personal</h2></div>
             <div class="text">
-                <label for="nombreC">Nombre Completo:</label>
-                <input type="text" id="nombreC" name="nombreC"><br>
-                <label for="descPersonal">Descripción Personal:</label><br>
-                <textarea name="descPersonal" id="descPersonal" cols="25" rows="10"></textarea><br>
-                <label for="">Usuario:</label>
-                <input type="text" name="usuario"><br>
-                <label for="">Contraseña:</label>
-                <input type="text" name="contrasena"><br>
-                <label for="">Sexo:</label>
-                <select name="sexo" id="sexo">
-                    <option selected>Elija una opción</option>
-                    <option value="Femenino">Femenino</option>
-                    <option value="Masculino">Masculino</option>
-                </select>
+               <form action="index.php" method="POST">
+                    <label for="nombreC">Nombre Completo:</label>
+                    <input type="text" id="nombreC" name="nombreC"><br>
+                    <label for="descPersonal">Descripción Personal:</label><br>
+                    <textarea name="descPersonal" id="descPersonal" cols="25" rows="10"></textarea><br>
+                    <label for="">Usuario:</label>
+                    <input type="text" name="usuario"><br>
+                    <label for="">Contraseña:</label>
+                    <input type="text" name="contrasena"><br>
+                    <label for="">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option selected>Elija una opción</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Masculino">Masculino</option>
+                    </select>
+
+                    <br><br><br>
+                    <input type="submit" value="Enviar Información">
+               </form>
             </div>
         </div>
         
